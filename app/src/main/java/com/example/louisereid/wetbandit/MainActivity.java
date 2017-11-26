@@ -1,5 +1,6 @@
 package com.example.louisereid.wetbandit;
 
+import android.graphics.drawable.AnimationDrawable;
 import android.media.Image;
 import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
@@ -48,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
 
         credit.setText(machine.getCredit().toString());
         jackpot.setText(machine.getBank().toString());
+
 
     }
 
